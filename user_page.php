@@ -44,6 +44,8 @@ if(!isset($user_id)){
       <img src="uploaded_img/<?= $fetch_profile['image']; ?>" alt="">
       <h3><?= $fetch_profile['name']; ?></h3>
       <a href="user_profile_update.php" class="btn">update profile</a>
+      <a href="addproduct.php" class="option-btn">Add Products</a>
+      <a href="../cart-user/index.php" class="option-btn">brows producs</a>
       <a href="logout.php" class="delete-btn">logout</a>
       
    </div>
